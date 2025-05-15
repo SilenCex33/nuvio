@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="icon" type="image/svg+xml" href="logo.svg">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="dark:bg-n-black dark:text-n-white">
@@ -90,53 +92,78 @@
   <!-- Leistungen -->
   <section id="leistungen" class="fade-in">
     <div class="text-center mb-12">
-      <h2>Leistungen</h2>
+      <h2 style="color: darkgray;">Leistungen</h2>
       <p class="subtitle">Modern, effizient & auf dein Business abgestimmt</p>
     </div>
     <div class="grid md:grid-cols-3 gap-8 px-4 md:px-12">
       <div class="service-card">
-        <img src="https://placehold.co/64x64" alt="Landingpage Icon" />
+         <i class="fas fa-bolt" style="color:var(--n-gold); font-size: 48px; margin-bottom: 1rem;"></i>
         <h3>Landingpages</h3>
         <p>Conversion-optimiert und mobil-first: Landingpages, die Kunden gewinnen.</p>
       </div>
       <div class="service-card">
-        <img src="https://placehold.co/64x64" alt="SEO Icon" />
+        <i class="fas fa-cogs" style="color:var(--n-gold); font-size: 48px; margin-bottom: 1rem;"></i>
         <h3>Onpage-SEO</h3>
         <p>Technisch sauber, schnell und Google-ready – inklusive Strukturdaten.</p>
       </div>
       <div class="service-card">
-        <img src="https://placehold.co/64x64" alt="Support Icon" />
+        <i class="fas fa-shield-alt" style="color:var(--n-gold); font-size: 48px; margin-bottom: 1rem;"></i>
         <h3>Support & Wartung</h3>
         <p>Updates, Backups & Security: Ich halte deine Seite aktuell & sicher.</p>
       </div>
     </div>
-    <div class="pricing-cards px-4 md:px-12">
-      <div class="pricing-card">
-        <h4>Basis</h4>
-        <p>Landingpage + Grund-SEO</p>
-        <p class="price">50 €</p>
-        <a href="#kontakt" class="btn btn-outline-dark">Anfragen</a>
-      </div>
-      <div class="pricing-card">
-        <h4>Standard</h4>
-        <p>+ Onpage-SEO + 1 Monat Wartung</p>
-        <p class="price">100 €</p>
-        <a href="#kontakt" class="btn btn-outline-dark">Anfragen</a>
-      </div>
-      <div class="pricing-card premium">
-        <div class="pricing-badge">Beliebt</div>
-        <h4>Premium</h4>
-        <p>+ 3 Monate Wartung + Support per Mail</p>
-        <p class="price">150 €</p>
-        <a href="#kontakt" class="btn btn-dark">Anfragen</a>
-      </div>
+    <!-- Trust integration -->
+     <section id="testimonials" style="padding: 4rem 1rem; background-color: #f9f9f9;">
+  <div style="max-width: 1000px; margin: auto; text-align: center;">
+    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Was meine Kunden sagen</h2>
+    <p style="font-size: 1rem; margin-bottom: 2rem; color: #555;">
+      Echtes Feedback von echten Kunden – gesammelt über ProvenExpert.
+    </p>
+
+    <!-- ProvenExpert Widget -->
+    <div id="pe-widget"></div>
+    <script async src="https://www.provenexpert.com/widget/ABC1234567890abcdef1234567890abcdef.js"></script>
+    <!-- Ersetze den Widget-Link oben mit deinem echten ProvenExpert-Code -->
+  </div>
+</section>
+
+<!-- Angebote -->
+<section id="angebote" class="pricing-section">
+  <div class="pricing-cards px-4 md:px-12">
+    <div class="pricing-card">
+      <h4>Basis</h4>
+      <p style="color: #555;">Professionelle Landingpage für dein Projekt mit responsivem Design.</p>
+      <p style="color: #555;">Grundlegende Suchmaschinenoptimierung (SEO), damit deine Seite gefunden wird.</p>
+      <p class="price">50 €</p>
+      <a href="#kontakt" class="btn btn-outline-dark">Jetzt anfragen</a>
     </div>
-  </section>
+
+    <div class="pricing-card">
+      <h4>Standard</h4>
+      <p style="color: #555;">Alles aus Basis plus erweiterte Onpage-SEO für bessere Google-Platzierungen.</p>
+      <p style="color: #555;">1 Monat Wartung inklusive, damit deine Seite immer aktuell und sicher bleibt.</p>
+      <p class="price">100 €</p>
+      <a href="#kontakt" class="btn btn-outline-dark">Jetzt anfragen</a>
+    </div>
+
+    <div class="pricing-card premium">
+      <div class="pricing-badge">Beliebt</div>
+      <h4>Premium</h4>
+      <p style="color: #555;">Umfassendes Paket: Basis + Standard-Leistungen</p>
+      <p style="color: #555;">Zusätzlich 3 Monate Wartung und persönlicher Support per E-Mail, Telefon und Remote für schnelle Hilfe.</p>
+      <p class="price">150 €</p>
+      <a href="#kontakt" class="btn btn-dark">Jetzt anfragen</a>
+    </div>
+  </div>
+</section>
+
+  
+    
 
   <!-- Portfolio -->
   <section id="portfolio" class="fade-in">
     <div class="text-center mb-12 px-4 md:px-12">
-      <h2>Projekte</h2>
+      <h2 style="color: black;">Projekte</h2>
       <p class="subtitle">Eine Auswahl erfolgreicher Kundenprojekte</p>
     </div>
     <div class="filter-buttons">

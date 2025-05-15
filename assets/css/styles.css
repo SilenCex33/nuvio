@@ -258,12 +258,28 @@
       margin: 1rem 0 1.5rem;
       color: var(--n-gold);
     }
+    #testimonials h2 {
+  font-family: sans-serif;
+  color: #222;
+    }
+
+    #testimonials p {
+    font-family: sans-serif;
+    color: #666;
+    }
+
+    #testimonials {
+      border-top: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
     .pricing-card a.btn {
       font-weight: 600;
       border-radius: 9999px;
       padding: 0.75rem 2rem;
     }
     /* Portfolio */
+    
     section#portfolio {
       padding-top: 5rem;
       padding-bottom: 5rem;
